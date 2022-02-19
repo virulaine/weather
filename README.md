@@ -16,6 +16,7 @@ Simple API to get historical weather data
 
 ## Instructions
 1. 		composer install
-2. 		php artisan migrate
-3. 		php artisan parse daily_14.json
-4. Run GET/POST requests from Postman collection located in "postman" directory
+2. Set up .env file
+3. 		php artisan migrate
+4. 		php artisan parse daily_14.json
+5. Run GET/POST requests from Postman collection located in "postman" directory
