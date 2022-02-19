@@ -20,3 +20,9 @@ Simple API to get historical weather data
 3. 		php artisan migrate
 4. 		php artisan parse daily_14.json
 5. Run GET/POST requests from Postman collection located in "postman" directory
+
+    * Register (returns token)
+    * Login (returns token)
+    * GET /cities (requires Bearer token)
+    * GET /city/{ID} (requires Bearer token)
+    * POST /city/{ID} (requires Bearer token)
